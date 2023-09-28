@@ -45,7 +45,7 @@ body {
     display: grid;
     align-content: start;
     min-width: 130px;
-    grid-template-rows: 7vh auto auto 1fr;
+    grid-template-rows: minmax(50px, 7vh) auto auto 1fr;
     gap: 3vh;
 }
 
@@ -53,7 +53,6 @@ body {
 .navigation > div:nth-child(2),
 .navigation > div:nth-child(3) {
     margin-left: 1vh;
-    border: 1px black solid;
     .image > img {
         height: 18.5px;
         width: auto;
@@ -76,7 +75,7 @@ body {
     grid-row: 1 / 2;
     background-color: aqua;
     display: grid;
-    grid-template: 7vh 1fr / 1fr;
+    grid-template: minmax(50px, 7vh) 1fr / 1fr;
     min-height: 75px;
 }
 
@@ -92,7 +91,6 @@ body {
     grid-template-rows: 1fr;
     margin-left: 1vh;
     align-items: center;
-    border: 1px black solid;
 }
 
 .header-row-1 > div,
@@ -100,8 +98,15 @@ body {
     display: flex;
 }
 
+.header-row-1 > div:nth-child(1),
+.header-row-2 > div:nth-child(1) {
+    justify-content: start;
+}
 
-
+.header-row-1 > div:nth-child(2),
+.header-row-2 > div:nth-child(2) {
+    justify-content: end;
+}
 
 
 
@@ -115,6 +120,7 @@ body {
     grid-template-rows: auto auto;
     gap: 10px;
     margin-left: 10px;
+    margin-top: 25px;
 }
 
 .content-projects {
