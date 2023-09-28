@@ -32,8 +32,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 20vh 1fr;
-    height: 100%;
+    grid-template-rows: 150px 1fr;
 }
 
 
@@ -93,7 +92,7 @@ body {
     grid-template-rows: 1fr;
     margin-left: 1vh;
     align-items: center;
-    /* border: 1px black solid; */
+    border: 1px black solid;
 }
 
 .header-row-1 > div,
