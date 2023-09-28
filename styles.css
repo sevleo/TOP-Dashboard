@@ -14,6 +14,19 @@
     --info-container-children: calc(var(--height)/3);
     --font-size: calc(13px + 0.5vw);
     --line-height: calc(1.1rem + 0.5vw);
+
+    /* Color palette */
+    --sky-50: #f0f9ff;
+    --sky-100: #e0f2fe;
+    --sky-200: #bae6fd;
+    --sky-300: #7dd3fc;
+    --sky-400: #38bdf8;
+    --sky-500: #0ea5e9;
+    --sky-600: #0284c7;
+    --sky-700: #0369a1;
+    --sky-800: #075985;
+    --sky-900: #0c4a6e;
+    --sky-950: #082f49;
 }
 
 html {
@@ -109,9 +122,7 @@ body {
 }
 
 
-
-
-
+/* Content */
 
 .content {
     grid-area: 2 / 2 / 3 / 3;
@@ -132,16 +143,43 @@ body {
 }
 
 .project {
-    background-color: brown;
     height: 150px;
     border-radius: 5px;
 }
 
 .content-sidebar {
-    display: grid;
+    /* display: grid; */
     grid-row: 2 / 3;
 }
 
 .content p {
     grid-row: 1 / 2;
 }
+
+.announcements {
+    margin-bottom: 50px;
+}
+
+
+/* Colors */
+
+.container {
+    background-color: var(--sky-200);
+}
+
+.project {
+    background-color: var(--sky-100);
+}
+
+.navigation {
+    background-color: var(--sky-500);
+    color: var(--sky-100);
+}
+
+.header {
+    background-color: var(--sky-50);
+}
+
+/* .image-home {
+    filter: invert(1);
+} */
