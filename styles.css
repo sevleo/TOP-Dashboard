@@ -94,27 +94,22 @@ body {
     min-width: 170px;
     grid-template-rows: minmax(70px, 7vh) auto 1fr;
     font-size: 20px;
-    /* gap: 3vh; */
     position: relative;
-
-    /* width: 20%; */
-    /* position: fixed; */
+    padding-top: 10px;
 
 
 }
 
 .navigation-header {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     font-size: 25px;
     color: var(--sky-100);
     position: absolute;
     top: 0px;
     left: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/* .navigation-header > p {
-    margin-top: 10px;
-} */
 
 .navigation > div:nth-child(1),
 .navigation > div:nth-child(2),
@@ -159,8 +154,7 @@ body {
 }
 
 ul > li {
-    /* margin-top: 20px; */
-    height: 60px;
+    height: 45px;
     padding-left: 20px;
     cursor: pointer;
 }
@@ -174,7 +168,7 @@ ul > li {
     border-radius: 8px;
     display: grid;
     grid-template: minmax(50px, 7vh) 1fr / 1fr;
-    min-height: 75px;
+    min-height: 755px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -191,7 +185,7 @@ ul > li {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    margin-left: 1vh;
+    /* margin-left: 1vh; */
     align-items: center;
 }
 
@@ -229,19 +223,21 @@ ul > li {
     grid-row: 2 / 3;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
-    /* margin-right: 10px; */
 }
 
 .project {
     background-color: var(--sky-100);
     border-radius: 8px;
     height: 300px;
-    
-    /* box-shadow: 2px 2px 8px 1px #68765381; */
     box-shadow:  0px 2px 5px rgba(0, 0, 0, 0.075);
     transition: all 0.4s;
-    
-    
+}
+
+.project,
+.trending,
+.announcements,
+.header {
+    padding: 20px;
 }
 
 .project:hover {
@@ -250,17 +246,17 @@ ul > li {
     outline: 2px solid var(--sky-200);
 }
 
-.project-label {
+/* .project-label {
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
-}
+} */
 
-.project-description,
+/* .project-description,
 .project-buttons {
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 
 .content-sidebar {
     grid-row: 2 / 3;
@@ -307,7 +303,6 @@ ul > li {
 
 li:hover {
     background-color: #6564616d;
-    /* color: var(--sky-50); */
     color: var(--sky-400);
     border-left: 3px var(--sky-400) solid;
     padding-left: 17px;
@@ -316,15 +311,9 @@ li:hover {
 
 li:hover > .image > svg {
     fill: var(--menu-icon-color-hover);
-    /* fill: black; */
 }
 
-/* li {
-    transition: all 0.1s ease-in-out;
-} */
-
 li:active {
-    /* transition: all 1s ; */
     background-color: #3938366d;
     z-index: 1;
 }
