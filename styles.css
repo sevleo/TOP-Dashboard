@@ -181,16 +181,24 @@ body {
 }
 
 .header > .header-row-1 {
-    display: flex;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    /* margin-left: 1vh; */
-    align-items: center;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    /* grid-template-rows: max-content; */
+    column-gap: 15px;
 }
 
 .buttons-section {
     margin-right: auto;
+    grid-column: 1 / 2;
+}
+
+.search-section {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+.search-section > div {
+    padding-left: 20px;
 }
 
 .buttons-section > .buttons > ul {
@@ -200,6 +208,7 @@ body {
 
 .header-row-1 > div {
     display: flex;
+    align-items: center;
 }
 
 .header ul > li {
@@ -221,17 +230,36 @@ body {
     color: var(--sky-200);
 }
 
-.search-bar {
+
+.search-bar input,
+.search-bar input:not(:placeholder-shown) {
+    background-color: var(--sky-200);
+    border: none;
+    color: var(--sky-500);
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    outline: none;
+    padding: 5px;
+    background-image: none;
+    transition: width 0.2s;
+    
+}
+
+.search-bar input:focus,
+.search-bar input:not(:focus):not(:placeholder-shown) {
+    width: 250px;
+    transition: width 0.4s;
+}
+
+.search-bar input:not(:focus):placeholder-shown {
     background-image: url(images/search-icon.svg);
+    background-position: 8px center;
     background-repeat: no-repeat;
     background-size: 25px 25px;
-    background-position: center;
-    border-radius: 30px;
-    background-color: var(--sky-200);
-    height: 40px;
-    width: 40px;
-    border: none;
 }
+
+
 
 
 /* Content */
@@ -239,7 +267,7 @@ body {
 .content {
     grid-area: 2 / 2 / 3 / 3;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 300px;
     grid-template-rows: auto auto;
     gap: 15px;
     margin-left: 20px;
@@ -250,7 +278,7 @@ body {
 .content-projects {
     display: grid;
     grid-row: 2 / 3;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 15px;
 }
 
@@ -280,6 +308,22 @@ body {
     box-shadow: 0px 2px 10px  rgba(0, 0, 0, 0.50);
     transition: all 0.4s;
     outline: 2px solid var(--sky-200);
+}
+
+.project:hover .project-image {
+    height: 70%;
+    transition: all 0.4s ease-in-out;
+}
+
+.project-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+    height: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
 }
 
 /* .project-label {
@@ -326,7 +370,8 @@ body {
 }
 
 .navigation {
-    background-color: var(--sky-600);
+    /* background-color: var(--sky-600); */
+    background-color: #63370cbf;
     color: var(--sky-300);
 }
 

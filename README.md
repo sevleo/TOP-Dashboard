@@ -1,1 +1,32 @@
-# admin_dashboard
+
+
+
+
+
+Credit for images:
+
+Eugene Golovesov:
+https://unsplash.com/photos/a-wooden-table-topped-with-pumpkins-and-nuts-b7dg9rX9zhI
+
+
+
+Alex Shu:
+https://unsplash.com/photos/8gNbhF5AGcs
+
+USGS:
+https://unsplash.com/photos/hoS3dzgpHzw
+
+
+Pawel Czerwinski:
+https://unsplash.com/photos/Lki74Jj7H-U
+https://unsplash.com/photos/6lQDFGOB1iw
+
+Vasilina Sirotina:
+https://unsplash.com/photos/a-mirror-sitting-in-the-middle-of-a-forest-0SjQ6KcwS4k
+https://unsplash.com/photos/iXRGd_Lj3gA
+
+Anne Laure P:
+https://unsplash.com/photos/looking-up-at-tall-bamboo-trees-in-a-forest-wVmz75D5ztk
+
+artawkrn:
+https://unsplash.com/photos/two-people-reaching-out-their-hands-to-touch-each-other-tXnsbe-Y0To
