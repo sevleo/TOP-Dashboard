@@ -495,7 +495,8 @@ body {
 
 .navigation {
     /* background-color: var(--sky-600); */
-    background-color: #63370cbf;
+    /* background-color: #63370cbf; */
+    background-color: #000000bf;
     color: var(--sky-300);
 }
 
