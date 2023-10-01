@@ -1,7 +1,8 @@
 ## Admin Dashboard
 
 
-### About the project - <h2 align="center">
+### About the project
+<h2 align="center">
     <a href="https://sevleo.github.io/admin_dashboard/">Preview</a>
 </h2>
 This project was created for the <span><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#assignment">Project: Admin Dashboard assignment</a></span> of The Odin Project Curriculum. It showcases knowledge of the vanilla CSS and emphasizes Flexbox and CSS Grid.
