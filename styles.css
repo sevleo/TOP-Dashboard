@@ -131,6 +131,7 @@ body {
     font-size: 20px;
     position: relative;
     padding-top: 10px;
+    /* justify-content: start; */
 
 
 }
@@ -139,11 +140,13 @@ body {
     /* padding-left: 20px; */
     font-size: 30px;
     color: var(--sky-100);
-    position: absolute;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    left: 0px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    justify-self: start;
+    padding-left: 20px;
 }
 
 .navigation > div:nth-child(1),
