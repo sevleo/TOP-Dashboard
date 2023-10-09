@@ -97,7 +97,7 @@
 html {
     font-family: 'Roboto-Light', sans-serif, serif;
     font-size: 14px;
-    height: 100vh;
+    /* height: 100vh; */
     line-height: var(--line-height);
 }
 
