@@ -1,18 +1,50 @@
-## Admin Dashboard
-<h2>
-    <a href="https://sevleo.github.io/admin_dashboard/">Preview link</a>
-</h2>
 
-### About the project
+# Admin Dashboard
 
-This project was created for the <span><a href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard#assignment">Project: Admin Dashboard assignment</a></span> of The Odin Project Curriculum. It showcases knowledge of the vanilla CSS and emphasizes Flexbox and CSS Grid.
+Employing the dynamic capabilities of CSS Grid and Flexbox, crafting a sleek and adaptable layout reminiscent of a dashboard. This approach ensures a clean, organized, and responsive design, accommodating various screen sizes effortlessly.
 
 
+![Home page screenshot](demo.png)
 
 
+## Table of Contents
+
+- [Demo](#demo)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Demo
+
+You can view the project at [Admin Dashboard Demo](https://sevleo.github.io/admin_dashboard/).
 
 
-### Credit for images:
+## Technologies
+
+- Vanilla JS
+- CSS
+- HTML
+
+
+## Contributing
+
+ Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+
+ 1. Fork the repository.
+ 2. Create a new branch for your feature or bug fix.
+ 3. Make your changes and commit them.
+ 4. Push your changes to your fork.
+ 5. Create a pull request.
+
+
+## License
+
+ This project is licensed under the [MIT LICENSE](./LICENSE)
+
+ 
+## Acknowledgements
+
 Eugene Golovesov:
 https://unsplash.com/photos/a-wooden-table-topped-with-pumpkins-and-nuts-b7dg9rX9zhI
 
@@ -48,4 +80,3 @@ https://unsplash.com/photos/OaxxuJGqlVU
 
 Oscar Sutton:
 https://unsplash.com/photos/yihlaRCCvd4
-
