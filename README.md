@@ -22,7 +22,6 @@ You can view the project at [Admin Dashboard Demo](https://sevleo.github.io/admi
 
 ## Technologies
 
-- Vanilla JS
 - CSS
 - HTML
 
