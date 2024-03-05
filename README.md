@@ -1,11 +1,8 @@
-
 # Admin Dashboard
 
 Employing the dynamic capabilities of CSS Grid and Flexbox, crafting a sleek and adaptable layout reminiscent of a dashboard. This approach ensures a clean, organized, and responsive design, accommodating various screen sizes effortlessly.
 
-
 ![Home page screenshot](demo.png)
-
 
 ## Table of Contents
 
@@ -17,31 +14,27 @@ Employing the dynamic capabilities of CSS Grid and Flexbox, crafting a sleek and
 
 ## Demo
 
-You can view the project at [Admin Dashboard Demo](https://sevleo.github.io/admin_dashboard/).
-
+You can view the project at [Admin Dashboard Demo](https://sevleo.github.io/TOP-Dashboard/).
 
 ## Technologies
 
 - CSS
 - HTML
 
-
 ## Contributing
 
- Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
- 1. Fork the repository.
- 2. Create a new branch for your feature or bug fix.
- 3. Make your changes and commit them.
- 4. Push your changes to your fork.
- 5. Create a pull request.
-
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix.
+3.  Make your changes and commit them.
+4.  Push your changes to your fork.
+5.  Create a pull request.
 
 ## License
 
- This project is licensed under the [MIT LICENSE](./LICENSE)
+This project is licensed under the [MIT LICENSE](./LICENSE)
 
- 
 ## Acknowledgements
 
 Eugene Golovesov:
@@ -52,7 +45,6 @@ https://unsplash.com/photos/8gNbhF5AGcs
 
 USGS:
 https://unsplash.com/photos/hoS3dzgpHzw
-
 
 Pawel Czerwinski:
 https://unsplash.com/photos/Lki74Jj7H-U
